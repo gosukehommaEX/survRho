@@ -541,8 +541,7 @@ p_fig3 <- ggplot(fig3_long,
   ) +
   scale_x_continuous(breaks = seq(0.5, 0.95, by = 0.1)) +
   labs(x = expression("Hazard ratio " * HR),
-       y = expression(atop("Signed relative gap",
-                           "from " * rho * "* (%)"))) +
+       y = expression("Signed relative gap from " * rho * "* (%)")) +
   guides(
     color = guide_legend(keywidth = unit(1.0, "cm")),
     shape = guide_legend(keywidth = unit(1.0, "cm"))
