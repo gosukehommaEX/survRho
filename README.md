@@ -78,7 +78,7 @@ The script that generates all figures and the table reported in Homma and
 Komukai (20XX) is included in the package and can be located via:
 
 ```r
-system.file("paper", "table_and_figure_paper.R", package = "survRho")
+system.file("table_and_figure_paper.R", package = "survRho")
 ```
 
 To regenerate the outputs locally, set the desired output directory and
@@ -87,7 +87,7 @@ source the script:
 ```r
 library(survRho)
 OUT_DIR <- "~/survRho_outputs"   # any path you prefer
-source(system.file("paper", "table_and_figure_paper.R", package = "survRho"))
+source(system.file("table_and_figure_paper.R", package = "survRho"))
 ```
 
 The script writes four figure files (EPS) and the application-section
